@@ -504,3 +504,58 @@ p {
         transform: none;
     }
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    h1, h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .breadcrumb {
+        font-size: 17px;
+    }
+
+    .indexC h1 {
+        width: 90%;
+    }
+
+    .indexC {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .pistas img:hover {
+        transform: none;
+    }
+
+    .campeonato {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .categoria-brm img:hover,
+    .categoria-gt img:hover,
+    .categoria-grupoC img:hover,
+    .categoria-lmp img:hover,
+    .categoria-clasicos img:hover,
+    .categoria-f1 img:hover {
+        transform: none;
+    }
+
+    .contacto, .ubi {
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .imgInsta:hover, .imgfacebk:hover, .img-maps:hover {
+        transform: none;
+    }
+}
