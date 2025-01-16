@@ -381,15 +381,16 @@ p {
     }
 
     .logo {
-        width: 110px;
-        height: auto;
+        width: 80px;
+        height: 40px;
         margin-right: 10px;
     }
 
     .breadcrumb {
         display: flex;
         align-items: flex-start;
-        font-size: 13px;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding: 0;
         width: 100%;
     }
