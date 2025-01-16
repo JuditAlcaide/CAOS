@@ -389,9 +389,9 @@ p {
     .breadcrumb {
         display: flex;
         align-items: flex-start;
-        font-size: 14px;
-        width: 100%;
+        font-size: 13px;
         padding: 0;
+        width: 100%;
     }
 
     .breadcrumb li+li::before {
@@ -401,6 +401,10 @@ p {
     .indexC h1 {
         width: 60%;
         font-size: 26px;
+    }
+    
+    .indexC h2 {
+        width: 80%;
     }
 
     .indexC {
@@ -517,6 +521,10 @@ p {
         margin: 5px 0;
     }
 
+    .nota1 {
+        font-size: 12px;
+    }
+
     .imgInsta, .imgfacebk, .img-maps {
         height: 150px;
     }
@@ -574,6 +582,10 @@ p {
     .contacto, .ubi {
         width: 90%;
         margin: 15px auto;
+    }
+
+    .nota1 {
+        font-size: 16px;
     }
 
     .imgInsta:hover, .imgfacebk:hover, .img-maps:hover {
