@@ -350,3 +350,157 @@ p {
 .img-maps:hover {
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+        padding: 5px;
+        max-width: 600px;
+    }
+
+    h1, h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .head {
+        width: 100%;
+        max-width: 600px;
+        padding: 5px;
+    }
+
+    .logo {
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .breadcrumb {
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 14px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .indexC h1 {
+        width: 60%;
+        font-size: 26px;
+    }
+
+    .indexC {
+        width: 95%;
+        margin: 20px auto;
+        padding: 20px auto;
+    }
+
+    .pistas {
+        grid-template-columns: 1fr;
+    }
+
+    .pistas img:hover {
+        transform: none;
+    }
+
+    .calendario {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .calendario h1 {
+        text-align: center;
+        margin: 0 auto;
+        width: auto;
+        font-size: 20px;
+    }
+
+    .calendario img {
+        display: block;
+        max-width: 80%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .campeonato {
+        margin-left: 0;
+        padding-left: 0;
+
+    }
+
+    .campeonato section {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px auto;
+    }
+
+    .categoria-brm,
+    .categoria-gt,
+    .categoria-grupoC,
+    .categoria-lmp,
+    .categoria-clasicos,
+    .categoria-f1 {
+        margin: 10px 5px;
+        padding: 10px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .img-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .categoria-brm img,
+    .categoria-gt img,
+    .categoria-grupoC img,
+    .categoria-lmp img,
+    .categoria-clasicos img,
+    .categoria-f1 img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .categoria-brm img:hover,
+    .categoria-gt img:hover,
+    .categoria-grupoC img:hover,
+    .categoria-lmp img:hover,
+    .categoria-clasicos img:hover,
+    .categoria-f1 img:hover {
+        transform: none;
+    }
+
+    .contacto, .ubi {
+        width: 85%;
+        margin: 20px auto;
+        padding: 20px auto;
+    }
+
+    .contacto a, .ubi a {
+        flex-direction: column;
+        margin: 5px 0;
+    }
+
+    .imgInsta, .imgfacebk, .img-maps {
+        height: 150px;
+    }
+
+    .imgInsta:hover, .imgfacebk:hover, .img-maps:hover {
+        transform: none;
+    }
+}
