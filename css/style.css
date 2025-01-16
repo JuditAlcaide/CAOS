@@ -191,7 +191,7 @@ p {
 
 .campeonato h1 {
     border: 6px outset #595959;
-    margin: 20px auto;
+    margin: 10px auto;
     width: 400px;
     padding: 10px;
     background: var(--primary-gradient);
@@ -314,6 +314,10 @@ p {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.nota1 {
+    font-size: 14px;
+}
+
 .imgInsta, .imgfacebk {
     height: 250px;
     width: auto;
@@ -377,17 +381,21 @@ p {
     }
 
     .logo {
-        width: 100px;
+        width: 110px;
         height: auto;
         margin-right: 10px;
     }
 
     .breadcrumb {
-        flex-direction: column;
+        display: flex;
         align-items: flex-start;
         font-size: 14px;
         width: 100%;
         padding: 0;
+    }
+
+    .breadcrumb li+li::before {
+        content: none;
     }
 
     .indexC h1 {
@@ -433,16 +441,22 @@ p {
         margin: 10px auto;
     }
 
+    .campeonato h1 {
+        text-align: center;
+        margin: 0 auto;
+        width: auto;
+        font-size: 20px;
+    }
+
     .campeonato {
         margin-left: 0;
         padding-left: 0;
-
     }
 
     .campeonato section {
         width: 90%;
-        margin: 20px auto;
-        padding: 20px auto;
+        margin: 0 auto;
+        padding: 10px auto;
     }
 
     .categoria-brm,
@@ -483,6 +497,13 @@ p {
     .categoria-clasicos img:hover,
     .categoria-f1 img:hover {
         transform: none;
+    }
+
+    .contUbi-container h1 {
+        text-align: center;
+        margin: 10px auto;
+        width: 90%;
+        font-size: 20px;
     }
 
     .contacto, .ubi {
